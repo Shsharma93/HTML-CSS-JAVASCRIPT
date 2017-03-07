@@ -1,0 +1,207 @@
+
+/*-------------------------------Body------------------------------------*/
+
+body
+{
+	border: 5px double #c9123d;
+	width: 70%;
+	margin-left: 150px;
+	margin-top: 50px;
+	padding: 10px;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif; 
+	font-size: 16px;
+	background-image: url("images/subtle_white_mini_waves.png"); /*  [5] */ /* background-image for body Source : http://subtlepatterns.com/subtle-white-mini-waves/ */
+	background-color:#F5F3EE;
+	border-radius: 10px;
+	/*background: linear-gradient(#f15d58 0%, #b7adad 100%)*/
+}
+
+
+
+
+
+/*-------------------------------Header------------------------------------*/
+
+
+.logo
+{
+  	float: left;
+  	margin: 0px 10px 0px 0px;
+  	border-radius: 10px;
+	border: 1px solid #ddd;
+	padding: 2px;
+	width:27.5%;
+
+}
+
+
+header
+{
+		background: #FAF4D2;
+		padding: 5px;
+		border: 1px solid #8a8a8a;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5); /* Use rgba for the transparency */
+		margin: 10px;
+}
+
+
+header h1 
+{
+  	font-family: arial, Gadget, sans-serif;
+	font-size: 43px;
+	text-align: center;
+	color: #c9120d;
+	top:20px;
+	text-shadow: 2px 2px #333;
+}
+
+header h3
+{
+	text-align: right;
+	font-size:25px; 
+}
+
+
+/*-------------------------------Global Navigation------------------------------------*/
+
+
+nav
+{
+	line-height:15px;
+}
+
+
+nav ul  
+{
+    list-style-type: none;
+    margin-left:30px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #c9123d;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    width:90%;
+    align:center;
+}
+
+nav li 
+{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+nav li a {
+    display: block;
+    color: #F5F3EE;
+    font-family: ubuntu, lora;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 60px;
+    text-decoration: none;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav li a:hover {
+    background-color: #FAF4D2;
+    transition: background-color 0.5s ease;
+    color: #c9123d;
+}
+
+/*-------------------------------Section------------------------------------*/
+
+
+
+section
+{
+	border: 3px solid #fff;
+	margin: 0px 10px 0px 32px;
+	padding: 15px 15px 15px 15px;
+	background-image: url("images/tweed.png"); /*  [6] */ /* section background source: http://subtlepatterns.com/tweed/ */
+	color: #FAF4D2;
+	width:90%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+
+section p:first-letter {
+		color: #fff;
+		font-size: 55px;
+		line-height: 30px;
+		padding: 0px 5px 0px 0px;
+		font-weight:bold;
+		float: left;
+		font-family: 'Tangerine', cursive;	
+		}
+
+
+
+
+section p
+{
+	text-align:justify;
+	font-size: 25px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+section h3
+{
+	font-size:50px;
+	text-align: center;
+	font-family: Inconsolata;
+	text-shadow: 2px 2px #333;
+	color:#F78C11;
+	text-shadow: 2px 2px #fff;
+}
+
+
+/*-------------------------------Footer Navigation------------------------------------*/
+
+.footernav 
+{
+    list-style-type: none;
+    margin-left: 310px;
+    overflow: hidden;
+    background-color: #4E524F;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    width:40%;
+}
+
+
+.footernav li 
+{
+    float: left;
+    margin-left: 0px;
+    margin-right: 15px
+}
+
+.footernav li a {
+    display: block;
+    color: #F5F3EE;
+    font-family: ubuntu, lora;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+
+.footernav li a:hover {
+    font-weight:bold;
+}
+
+#currentpage
+{
+	background: green;
+	font-weight:bold;
+}
+

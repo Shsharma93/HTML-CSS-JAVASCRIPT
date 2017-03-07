@@ -1,0 +1,198 @@
+/*-------------------------------Body------------------------------------*/
+
+body
+{
+	border: 5px double #c9123d;
+	width: 70%;
+	margin-left: 150px;
+	margin-top: 50px;
+	padding: 10px;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif; 
+	font-size: 16px;
+	background-image: url("images/subtle_white_mini_waves.png"); /*--[5]--*/ /* background Image source: http://subtlepatterns.com/subtle-white-mini-waves/ */
+	background-color:#F5F3EE;
+	border-radius: 10px;
+	
+}
+
+
+/*-------------------------------Header------------------------------------*/
+
+
+
+.logo
+{
+  	float: left;
+  	margin: 0px 10px 0px 0px;
+  	border-radius: 10px;
+	border: 1px solid #ddd;
+	padding: 2px;
+	width:27.5%;
+
+}
+
+
+
+header
+{
+		background: #FAF4D2;
+		padding: 5px;
+		border: 1px solid #8a8a8a;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5); /* Use rgba for the transparency */
+		margin: 10px;
+}
+
+
+header h1 
+{
+  	font-family: arial, Gadget, sans-serif;
+	font-size: 43px;
+	text-align: center;
+	color: #c9120d;
+	top:20px;
+	text-shadow: 2px 2px #333;
+}
+
+header h3
+{
+	text-align: right;
+	font-size:25px; 
+}
+
+
+/*-------------------------------Global Navigation------------------------------------*/
+
+
+nav
+{
+	line-height:15px;
+}
+
+
+nav ul  
+{
+    list-style-type: none;
+    margin-left:30px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #c9123d;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    width:90%;
+    align:center;
+}
+
+nav li 
+{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+nav li a {
+    display: block;
+    color: #F5F3EE;
+    font-family: ubuntu, lora;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 60px;
+    text-decoration: none;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav li a:hover {
+    background-color: #FAF4D2;
+    transition: background-color 0.5s ease;
+    color: #c9123d;
+}
+
+
+
+
+
+
+
+.bookname
+{
+	text-align: center;
+	font-size: 3em;
+}
+
+.bookdesc
+{
+	text-align: center;
+}
+.author
+{
+	text-align:center;
+	
+}
+
+
+.summ
+{
+		padding: 5px;
+		border: 1px solid #8a8a8a;
+		border-radius: 10px;
+		margin: 5px;
+}
+
+.summ p
+{
+	text-align:justify;
+	max-width: 55%;
+	font-size: 16.3px;
+	padding: 2px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.summ img
+{
+	float: right;
+  	border-radius: 10px;
+	border: 1px solid #ddd;
+	padding: 2px;
+	width:40%;
+}
+
+.summarytitle
+{
+	text-align: center;
+	font-size:2em;
+}
+
+.design
+{
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+
+.praise p
+{
+	
+	margin-right: 20px;
+	font-weight: bold;
+	text-align: right;
+	
+}
+
+.praise li
+{
+	font-size: 20px;
+	margin-left:10px;
+	text-align: justify;
+	margin-right: 20px;
+}
+
+.praisebook
+{
+	text-align: center;
+	font-size: 30px;
+}
+
